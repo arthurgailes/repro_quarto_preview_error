@@ -1,0 +1,14 @@
+---
+title: Broken GH method
+format: html
+editor:
+  render-on-save: true
+---
+
+Test the method
+
+
+```{r}
+nc = sf::st_read(system.file("shape/nc.shp", package="sf"))
+mapview::mapview(nc)
+```
